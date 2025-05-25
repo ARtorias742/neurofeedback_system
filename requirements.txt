@@ -1,0 +1,6 @@
+mne==1.8.0
+numpy==1.26.4
+psychopy
+pyOpenBCI==0.13
+pyyaml==6.0.2
+scipy==1.14.1

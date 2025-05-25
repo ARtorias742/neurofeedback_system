@@ -1,0 +1,14 @@
+eeg:
+  sample_rate: 250  # Hz, OpenBCI Cyton default
+  channels: ['C3', 'C4', 'Fz', 'Pz']  # EEG channels to use
+  buffer_size: 250  # Samples for real-time processing
+filtering:
+  lowcut: 1.0  # Hz
+  highcut: 40.0  # Hz
+  notch: 50.0  # Hz, for power line noise
+frequency_bands:
+  theta: [4, 8]  # Hz
+  alpha: [8, 12]  # Hz
+feedback:
+  threshold_alpha: 10.0  # uV^2, adjust based on calibration
+  update_rate: 0.1  # Seconds, feedback refresh rate
